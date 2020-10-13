@@ -16,7 +16,7 @@ class blooddb(donor):
             alpha, beta, ceta, deta, eta, feta = lines
             if beta == phone:
                 print("Record Found:\n")
-                print(lines)
+                print(alpha, beta, ceta ,deta ,eta ,feta)
                 flag = 1
                 return "Found"
         if flag != 1:
